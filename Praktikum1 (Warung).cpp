@@ -38,7 +38,7 @@ int main() {
         
         if (barang == "es krim" || barang == "eskrim" || barang == "es_krim") {
             harga = Es_krim;
-            barang = "Es_krim";
+            barang = "Es krim";
             break;
 
         } else if (barang == "air mineral" || barang == "airmineral" || barang == "air_mineral") {
