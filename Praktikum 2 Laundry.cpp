@@ -16,6 +16,7 @@ string formatRupiah(int angka)
 
 int main()
 {
+    int max_berat = 20;
     string layanan;
     float berat, harga, total;
 
@@ -53,6 +54,7 @@ int main()
     cout << "\n== Struk Pembayaran ==:" << endl;
     cout << "Layanan: " << layanan << endl;
     cout << "Berat pakaian: " << berat << " kg" << endl;
+    cout << "Apakah berat melebihi " << max_berat << " kg? " << (berat > max_berat ? "Ya" : "Tidak") << endl;
     cout << "Total harga: " << formatRupiah(total) << endl;
 
     return 0;
