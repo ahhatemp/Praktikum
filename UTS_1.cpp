@@ -30,5 +30,7 @@ int main () {
         cout << "Pilihan tidak valid." << endl;
     }
 
+    cin.get();
+    cin.get();
     return 0;
 }
