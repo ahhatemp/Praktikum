@@ -6,7 +6,7 @@ int main () {
     double usd;
     double total_usd;
     double idr;
-    double total_idr;
+    int total_idr;
     int pilihan;
 
     cout << "Pilih mata uang yang ingin dikonversi: " << endl;
